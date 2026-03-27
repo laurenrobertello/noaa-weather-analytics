@@ -2,7 +2,7 @@
 
 An analytics engineering project that transforms raw NOAA Global Historical 
 Climatology Network (GHCND) weather data into clean, tested, well-documented 
-data models using dbt and BigQuery.
+data models using dbt and BigQuery to analyze historical temperature inversion patterns in mountain valleys and predict viewing opportunities atop mountain summits for backcountry recreation and photography.
 
 ## Project Goals
 
