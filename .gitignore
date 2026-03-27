@@ -1,0 +1,23 @@
+# BigQuery credentials
+*.json
+!dbt_project.yml
+!packages.yml
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# OS files
+.DS_Store
+.DS_Store?
+
+# IDE
+.vscode/
+.idea/
