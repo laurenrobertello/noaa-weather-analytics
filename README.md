@@ -11,37 +11,39 @@ Which Adirondack valleys trap cold air, how often, and in which months?
 On calm, clear nights, air near the ground cools and drains downhill, pooling in
 valley bottoms. When enough cold air collects, the valley floor ends up colder
 than the mountain above it — a temperature inversion, the reverse of the normal
-pattern where air gets colder with altitude. Inversions are what produce the fog
-that fills Adirondack valleys at dawn while summits stay clear above it.
+pattern where air gets colder with altitude. Inversions are also what set up the fog that fills Adirondack valleys at dawn while summits stay clear above it — though fog additionally requires enough moisture in the trapped air, which daily temperature records alone can't tell you.
 
 Measuring one requires temperature readings from two places at once: somewhere
 high and somewhere low, close enough together to share the same weather. That
 pairing is rare in mountain terrain, because weather stations are built where
 people live and where planes land — in valleys.
 
-## Why these stations
+## The data
 
-Whiteface Mountain is the anchor. At 1,483m it is the only high-elevation
-weather station in the Adirondacks, sitting roughly 900m above the valley floors
-around it. Without Whiteface there is no summit reading to compare against, and
-no way to detect an inversion at all.
+Whiteface Mountain is the anchor. At 1,483m it is the only high-elevation weather
+station in this dataset, sitting roughly 900m above the valley floors around it.
+Without Whiteface there is no summit reading to compare against, and no way to
+detect an inversion at all. The other five stations span the terrain below it,
+close enough that all six experience the same passing weather systems — so
+differences between them reflect local terrain rather than different storms.
 
-The other five stations span the terrain below it, from Plattsburgh at 50m on the
-Lake Champlain plain to Lake Placid, Saranac Lake, Tupper Lake and Newcomb between
-480m and 580m in the valleys of the High Peaks. Together they cover about 1,400m
-of vertical range within a 40km radius — close enough that all six stations
-experience the same passing weather systems, so differences between them reflect
-local terrain rather than different storms.
+| Station | Elevation | Setting |
+|---|---|---|
+| Whiteface Mountain | 1,483m | Summit |
+| Newcomb | 576m | High Peaks valley |
+| Lake Placid | 575m | High Peaks valley |
+| Tupper Lake | 512m | High Peaks valley |
+| Saranac Lake | 482m | High Peaks valley |
+| Plattsburgh AFB | 50m | Lake Champlain plain |
 
-## Scope
+**Date range: 1937–1946.** This is the only decade in which the summit station and
+the valley stations all reported at once. Whiteface recorded temperatures from 1937
+to 1946 and then stopped. The valley stations continue for decades afterward, but
+with no summit reading to pair against them, later years cannot answer the question.
 
-**Stations (6):** Whiteface Mountain (1,483m) as the summit anchor, with
-Plattsburgh AFB, Saranac Lake, Tupper Lake, Lake Placid and Newcomb as valley
-and mid-elevation comparisons — roughly 1,400m of vertical range within 40km.
-
-**Date range:** 1937–1946. This is the only decade in which the Whiteface summit
-station and the surrounding valley stations reported simultaneously. The summit
-record ends in 1946; most valley stations continue for decades afterward.
+A research observatory has operated on the Whiteface summit since 1970, run by the
+University at Albany's Atmospheric Sciences Research Center, but its measurements
+are not part of GHCNd and are not used here.
 
 ## Project goals
 
