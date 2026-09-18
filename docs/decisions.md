@@ -83,6 +83,22 @@ The .dly format pads every month to 31 days, so February carries slots for the
 30th and 31st filled with -9999. These become absent rows rather than rows with
 null values. Genuine gaps still surface later against the date spine.
 
+### Snowflake authentication: browser-based SSO for now, key-pair later
+The Snowflake account was created through Google sign-in, so no password exists.
+The ingestion script uses `externalbrowser` authentication: it opens a browser
+window, Google handles the login, and no credential is stored on disk. Better than
+storing a password, but it requires a human present to click through, so it cannot
+run unattended. At N9, when GitHub Actions builds the project automatically, this
+switches to key-pair authentication (a cryptographic key file instead of an
+interactive login). Noted now so the change isn't a surprise then.
+
+### Account edition is Enterprise, not Standard
+The trial account provisioned as Enterprise edition, where credits cost more than
+the Standard rate assumed when the resource monitor was set. The 50-credit monthly
+cap is therefore worth roughly $150, not $100. Left the cap unchanged — actual
+usage is expected to be a few credits per month, and the cap exists to catch
+runaway queries rather than to budget.
+
 ---
 
 ## Gotchas
