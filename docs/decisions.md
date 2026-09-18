@@ -99,6 +99,15 @@ cap is therefore worth roughly $150, not $100. Left the cap unchanged — actual
 usage is expected to be a few credits per month, and the cap exists to catch
 runaway queries rather than to budget.
 
+### Idempotency via truncate-and-reload
+The Snowflake load empties the target table before every run rather than
+attempting to merge or detect changed rows. The dataset is small (six stations,
+full history, a few hundred thousand rows) and the source files are static
+historical records, so a full reload costs seconds and removes an entire class of
+duplicate-row bugs. If this later grows to include hourly data (N11), where volume
+is roughly 24x higher, revisit and switch to an incremental load keyed on
+station and date.
+
 ---
 
 ## Gotchas
