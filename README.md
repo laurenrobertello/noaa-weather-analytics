@@ -6,10 +6,32 @@ data models using dbt.
 
 ## The question
 
-Which Adirondack valleys trap cold air, how often, and in which months? On calm
-clear nights cold air drains downhill and pools in valley bottoms, sometimes
-leaving the valley floor colder than the summit above it. This project measures
-how often that happened across an elevation transect in the Adirondack High Peaks.
+Which Adirondack valleys trap cold air, how often, and in which months?
+
+On calm, clear nights, air near the ground cools and drains downhill, pooling in
+valley bottoms. When enough cold air collects, the valley floor ends up colder
+than the mountain above it — a temperature inversion, the reverse of the normal
+pattern where air gets colder with altitude. Inversions are what produce the fog
+that fills Adirondack valleys at dawn while summits stay clear above it.
+
+Measuring one requires temperature readings from two places at once: somewhere
+high and somewhere low, close enough together to share the same weather. That
+pairing is rare in mountain terrain, because weather stations are built where
+people live and where planes land — in valleys.
+
+## Why these stations
+
+Whiteface Mountain is the anchor. At 1,483m it is the only high-elevation
+weather station in the Adirondacks, sitting roughly 900m above the valley floors
+around it. Without Whiteface there is no summit reading to compare against, and
+no way to detect an inversion at all.
+
+The other five stations span the terrain below it, from Plattsburgh at 50m on the
+Lake Champlain plain to Lake Placid, Saranac Lake, Tupper Lake and Newcomb between
+480m and 580m in the valleys of the High Peaks. Together they cover about 1,400m
+of vertical range within a 40km radius — close enough that all six stations
+experience the same passing weather systems, so differences between them reflect
+local terrain rather than different storms.
 
 ## Scope
 
